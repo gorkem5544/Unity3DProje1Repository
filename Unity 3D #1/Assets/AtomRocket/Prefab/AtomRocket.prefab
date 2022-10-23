@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8117087566865202150}
   - component: {fileID: 8005033571029116312}
   - component: {fileID: 990223548624524040}
+  - component: {fileID: 380583402}
   m_Layer: 0
   m_Name: head
   m_TagString: Untagged
@@ -83,6 +84,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &380583402
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3188911057770097655}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0055453517, y: 0.0055453507, z: 0.008950401}
+  m_Center: {x: 0, y: 0, z: 0.0361668}
 --- !u!1 &3744424215143477404
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +108,7 @@ GameObject:
   - component: {fileID: 4883920467969072304}
   - component: {fileID: 1842671403796370398}
   - component: {fileID: 571516037689493855}
+  - component: {fileID: 2013096274}
   m_Layer: 0
   m_Name: win.001
   m_TagString: Untagged
@@ -166,6 +181,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2013096274
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3744424215143477404}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.019183902, y: 0.019183904, z: 0.010033306}
+  m_Center: {x: -2.4651903e-32, y: 0.0000000018266663, z: 0.004829037}
 --- !u!1 &4013938282001915762
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,6 +205,7 @@ GameObject:
   - component: {fileID: 2043240322228822235}
   - component: {fileID: 5217970418174744899}
   - component: {fileID: 4842380537014076724}
+  - component: {fileID: 1764163367}
   m_Layer: 0
   m_Name: boddy
   m_TagString: Untagged
@@ -249,6 +278,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1764163367
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4013938282001915762}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.026378416, y: 0.026378408, z: 0.042172227}
+  m_Center: {x: 0, y: 0, z: 0.011097141}
 --- !u!1 &4048987665622279632
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,6 +302,7 @@ GameObject:
   - component: {fileID: 760325578691446933}
   - component: {fileID: 6928016121779002373}
   - component: {fileID: 288192555685291472}
+  - component: {fileID: 686605418}
   m_Layer: 0
   m_Name: boddy.belt
   m_TagString: Untagged
@@ -332,6 +375,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &686605418
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4048987665622279632}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.028071376, y: 0.02807137, z: 0.004018037}
+  m_Center: {x: 0, y: 0, z: 0.0053292336}
 --- !u!1 &6132319199572281842
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,6 +399,7 @@ GameObject:
   - component: {fileID: 5249835682068019595}
   - component: {fileID: 7617433379427370065}
   - component: {fileID: 3026291661436449134}
+  - component: {fileID: 101306262}
   m_Layer: 0
   m_Name: Arm
   m_TagString: Untagged
@@ -415,6 +472,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &101306262
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6132319199572281842}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.03090962, y: 0.02696174, z: 0.026922652}
+  m_Center: {x: 0.0001267662, y: 0.004246382, z: -0.011709182}
 --- !u!1 &8177614004375469541
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,6 +590,7 @@ GameObject:
   - component: {fileID: 7196611437421195383}
   - component: {fileID: 3429377500309265218}
   - component: {fileID: 2458432512427349028}
+  - component: {fileID: 168059270}
   m_Layer: 0
   m_Name: fire-nozzle
   m_TagString: Untagged
@@ -592,6 +663,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &168059270
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8568214101085479608}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010547942, y: 0.01054794, z: 0.014818305}
+  m_Center: {x: 0, y: 0, z: -0.009690117}
 --- !u!1 &8854619882081110099
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,6 +685,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 811222215694539037}
+  - component: {fileID: 122989406}
+  - component: {fileID: 122989405}
   m_Layer: 0
   m_Name: AtomRocket
   m_TagString: Untagged
@@ -632,6 +718,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &122989406
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8854619882081110099}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &122989405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8854619882081110099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1a19510d2ac9c34b943cefd937f6e4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _force: 10
 --- !u!1 &8972606480291121315
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,6 +763,7 @@ GameObject:
   - component: {fileID: 7897562469940145169}
   - component: {fileID: 8699853808829629078}
   - component: {fileID: 2494199813173006437}
+  - component: {fileID: 1163955575}
   m_Layer: 0
   m_Name: nute
   m_TagString: Untagged
@@ -715,6 +836,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1163955575
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8972606480291121315}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.022853008, y: 0.023164826, z: 0.0026965698}
+  m_Center: {x: -0.000011655036, y: 0.000028544562, z: 0.0011930496}
 --- !u!1 &9157579395830474423
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,6 +860,7 @@ GameObject:
   - component: {fileID: 4743314448228075003}
   - component: {fileID: 5028291867617598976}
   - component: {fileID: 6395274841600897387}
+  - component: {fileID: 1706622532}
   m_Layer: 0
   m_Name: win-frem
   m_TagString: Untagged
@@ -798,3 +933,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1706622532
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9157579395830474423}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.025153508, y: 0.025769798, z: 0.0055726715}
+  m_Center: {x: -0.000012325123, y: 0.000049025763, z: -0.0016083561}
