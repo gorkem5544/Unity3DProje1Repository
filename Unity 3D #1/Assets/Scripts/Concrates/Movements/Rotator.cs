@@ -28,6 +28,6 @@ public class Rotator : MonoBehaviour
             _rigidbody.freezeRotation = true;
 
         }
-        _rigidbody.transform.Rotate(Vector3.back * Time.deltaTime * direction * _playerController.rotatoSpeed);
+        _rigidbody.transform.Rotate(Vector3.back * Time.deltaTime * direction * _playerController.rotational_speed);
     }
 }
