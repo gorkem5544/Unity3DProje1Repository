@@ -38,9 +38,11 @@ public class GameManager : MonoBehaviour
     }
 
 
-    public void LoadLevelScene(int levelIndex)
+    public void LoadLevelScene(int levelIndex = 0)
     {
+
         StartCoroutine(LoadLevelSceneAsync(levelIndex));
+        Debug.Log("Deneme1");
     }
     private IEnumerator LoadLevelSceneAsync(int levelIndex)
     {
